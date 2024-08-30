@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(50, 48, 62);
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 21%;
+    /* background: red; */
+}
+#part2{
+    height: 100%;
+    width: 72%;
+    background: rgba(136, 205, 245, 0.964);
+    background-image: url(https://4kwallpapers.com/images/wallpapers/bmw-m4-gt3-evo-2024-2160x3840-16967.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(50, 48, 62, 0.651);
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    /* background: rgb(15, 234, 113); */
+}
+#text-div{
+    /* height: 300px; */
+    position: absolute;
+    /* width: 400px; */
+    
+    left: 10%;
+    top: 30%;
+}
+#text-div>h1{
+    font-size: 100px;
+    
+    font-family: monument;
+    letter-spacing:5px ;
+    
+    text-transform:uppercase ;
+    color: white;
+    
+   
+}
+#small-img-div{
+    height:400px;
+    width: 400px;
+    background: red;
+    background-image: url(https://w0.peakpx.com/wallpaper/824/500/HD-wallpaper-bmw-340i-3-series-340i-bmw-m-sport-sedan.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5PX;
+
+    position: absolute;
+    top:2%;
+    right: 5%;
+    transform:translate(0,0,50%) ;
+}
+#overlay-in{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(50, 48, 62, 0.41);
+
+}
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -48%;
+    transform-origin: 0%,0%;
+    
+    
+
+}
+#vertical-text>h1{
+    color:transparent;
+    font-size: 70px;
+    font-weight: 700;
+    font-family:monument;
+    text-transform: uppercase;
+    
+    letter-spacing: 20px;
+   
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 150px;
+    left: 10%;
+    top: 10%;
+    position: absolute;
+   
+}
+#nav img{
+    height: 70px;
+    width: 70px;
+    border-radius: 37px;
+}
