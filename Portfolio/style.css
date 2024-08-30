@@ -1,0 +1,186 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(60, 60, 105); */
+    
+}
+#nav{
+    padding: 10px;
+    background: rgb(83, 83, 121);
+    /* background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Colorful-Circle-Simple-Background-Image-1.jpg); */
+    /* background-size: cover; */
+    /* background-position: bottom; */
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}  
+#lnav{
+    height: 100%;
+    font-size: 25px;
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+    /* background-color: white; */
+    border-radius: 10px;
+
+}     
+#rnav{
+    font-size: 20px;
+    margin-top: 7px;
+    margin-right: 50px;
+    display: inline;
+}
+#rnav a{
+    color:white;
+    margin-right: 50px;
+    text-decoration: none;
+}
+#rnav a:hover{
+    color: rgb(146, 146, 168);
+    font-size: 1.2rem;
+   
+}
+#rnav i{
+    margin-right: 10px;
+}
+#mainbox{
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    background-color: rgba(2, 2, 47, 0.729);
+}
+#rightbox{
+    /* height: 100%; */
+    width: 50%;
+    position: relative;
+    /* background: #6d0606; */
+   
+}
+#leftbox{
+    /* height: 100%; */
+        width: 50%;
+    
+  
+    
+}
+#leftbox img{
+    width: 600px;
+    height: 600px;
+    margin-top: 30px;
+    
+}
+
+#rightbox #textcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#element{
+    color: lavender;
+    font-size: hind siliguri;
+}
+#textcenter h1{
+    color: rgb(208, 210, 125);
+    font-size: 60px;
+    font-family: poppins;
+    font-weight: 700;
+    font-family: hind siliguri;
+}
+#textcenter h2{
+    color: rgb(110, 110, 140);
+    font-size: 30px;
+}
+#secondsection{
+    background:rgba(2, 2, 47, 0.729);
+    height: 350px;
+    max-width: 100%;
+    
+    /* margin-top: 10px; */
+}
+main hr{
+    border: 0;
+    background: lavender;
+    height: 1.2px;
+    
+}
+.text-gray{
+    color: rgb(245, 233, 233);
+    font-size: 20px;
+    margin-left: 40px;
+    
+}
+
+    
+
+#secondsection h1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: hind siliguri;
+    color:white;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#secondsection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 0px 0;
+    margin-left: 20px;
+    display: flex;
+}
+#secondsection .vertical{
+    height: 80px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+.vertical-title{
+    position: relative;
+    top: 85px;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+}
+.vertical-js{
+    position: relative;
+    top: 85px;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+}
+.vertical-frontend{
+    position: relative;
+    top: 85px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+}
+footer{
+    background-color: rgb(42, 25, 57);
+    height: 200px;
+    /* display: flex; */
+    position: relative;
+    top: 293px;
+    font-size: 20px;
+    color: white;
+   
+}
+.footer{
+    padding: 40px 122px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.footer ul{
+    list-style: none;
+}
